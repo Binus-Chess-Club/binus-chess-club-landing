@@ -96,7 +96,7 @@ const About = () => {
             <p className="text-lg max-w-2xl mx-auto mb-8">
               Whether you're a complete beginner or an experienced player, we
               welcome all BINUS students who have an interest in chess. Join us
-              to learn, practice, and compete in a friendly environment. !!!
+              to learn, practice, and compete in a friendly environment. !!! !!!
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4">
               <a href="/contact" className="btn-primary">
