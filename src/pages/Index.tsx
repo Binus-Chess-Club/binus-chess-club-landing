@@ -121,7 +121,7 @@ const Index = () => {
               </p>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {/* <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               {upcomingEvents.map((event, index) => (
                 <EventCard
                   key={index}
@@ -133,7 +133,7 @@ const Index = () => {
                   buttonLink={`/events/${event.id}`}
                 />
               ))}
-            </div>
+            </div> */}
 
             <div className="text-center mt-12">
               <Button asChild className="bg-chessBlue hover:bg-chessBlue-light">
