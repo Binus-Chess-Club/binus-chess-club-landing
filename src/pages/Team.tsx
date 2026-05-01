@@ -94,7 +94,7 @@ const Team = () => {
       rating: 1270,
       image: "activist/scaled/owen.png",
       bio: "Owen leads the Alsut region and manages regional coordination.",
-      chessComUsername: "Ony0n",
+      chessComUsername: "Codename_Vangeance",
     },
   ];
 
@@ -145,15 +145,6 @@ const Team = () => {
       bio: "",
       chessComUsername: "ds0401",
     },
-    // RESIGNED
-    // {
-    //   name: "Hans Kartawinata",
-    //   position: "Club Activist",
-    //   rating: 2160,
-    //   image: "activist/scaled/hans.png",
-    //   bio: "Highly skilled activist contributing to club development and member engagement.",
-    //   chessComUsername: "Countered",
-    // },
     {
       name: "Stanley Christian Gunawan",
       position: "Club Activist",
@@ -356,15 +347,7 @@ const Team = () => {
       image:
         "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fit=crop&q=80",
       bio: "Highly skilled activist contributing to club development and member engagement.",
-    },
-    {
-      name: "Bakti Amirul Jabar",
-      position: "Club Activist",
-      rating: 2160,
-      image:
-        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fit=crop&q=80",
-      bio: "Highly skilled activist contributing to club development and member engagement.",
-    },
+    }
   ];
 
   // Combine all members and sort by rating for Hall of Fame
@@ -606,6 +589,24 @@ const Team = () => {
           </div>
         </section>
 
+        {/* Alumni Section */}
+        <section className="py-16 bg-gradient-to-br from-slate-50 to-blue-50">
+          <div className="container mx-auto px-4 text-center">
+            <h2 className="text-3xl md:text-4xl font-bold text-chessBlue mb-6">
+              Explore Our Alumni
+            </h2>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto mb-8">
+              Celebrate the contributions of our past members and leaders who have shaped the BINUS Chess Club throughout the years.
+            </p>
+            <a
+              href="/alumni"
+              className="inline-block bg-chessBlue text-white hover:bg-blue-700 font-bold px-8 py-3 rounded-lg transition-all shadow-md hover:shadow-lg"
+            >
+              View Alumni Hall
+            </a>
+          </div>
+        </section>
+
         {/* Join Section */}
         <section className="py-16 bg-chessGreen text-white">
           <div className="container mx-auto px-4 text-center">
@@ -776,3 +777,4 @@ const TopRatedMembersList = ({ allMembers, showAll, useStaticRating }: { allMemb
 
 // Component for top-rated member with live Chess.com rating
 export default Team;
+
