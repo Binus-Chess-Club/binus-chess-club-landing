@@ -44,7 +44,7 @@ const Alumni = () => {
     {
         name: "Owen Siau",
         position: "Former Regional Head - Alam Sutera",
-        chessComUsername: "Codename_Vangeance",
+        chessComUsername: "Ony0n",
         year: 2025,
     },
     {
@@ -278,7 +278,7 @@ const Alumni = () => {
                           transition={{ delay: index * 0.05 }}
                           className="px-4 py-2 hover:bg-gray-50 transition-colors"
                         >
-                          <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-2">
+                          <div className="flex flex-col items-start md:flex-row md:items-center md:justify-between gap-1">
                             <div>
                               <h3 className="text-sm font-semibold text-chessBlue">
                                 {member.name}
