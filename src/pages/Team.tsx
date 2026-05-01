@@ -598,6 +598,24 @@ const Team = () => {
           </div>
         </section>
 
+        {/* Alumni Section */}
+        <section className="py-16 bg-gradient-to-r from-blue-50 to-green-50">
+          <div className="container mx-auto px-4 text-center">
+            <h2 className="text-3xl md:text-4xl font-bold text-chessBlue mb-6">
+              Curious about our alumni?
+            </h2>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto mb-8">
+              Explore the history of our club by viewing past leaders and activists who have contributed to the BINUS Chess Club's success.
+            </p>
+            <a
+              href="/alumni"
+              className="inline-block bg-chessBlue hover:bg-blue-700 text-white font-bold px-8 py-3 rounded-lg transition-all shadow-md hover:shadow-lg"
+            >
+              View Alumni
+            </a>
+          </div>
+        </section>
+
         {/* Join Section */}
         <section className="py-16 bg-chessGreen text-white">
           <div className="container mx-auto px-4 text-center">

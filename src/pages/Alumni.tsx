@@ -230,7 +230,7 @@ const Alumni = () => {
               Alumni Hall
             </h1>
             <p className="text-lg text-slate-400 max-w-2xl mx-auto mt-4">
-              Honoring our past leaders & Activists who have contributed to the
+              Honoring our past leaders & activists who have contributed to the
               BINUS Chess Club's growth and success.
             </p>
           </div>

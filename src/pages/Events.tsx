@@ -27,7 +27,7 @@ const Events = () => {
         </section>
 
         {/* Upcoming Events */}
-        <section className="py-16">
+        {/* <section className="py-16">
           <div className="container mx-auto px-4">
             <h2 className="section-title text-center">Upcoming Events</h2>
             <p className="text-lg text-gray-600 text-center max-w-3xl mx-auto mb-12">
@@ -48,10 +48,10 @@ const Events = () => {
               ))}
             </div>
           </div>
-        </section>
+        </section> */}
 
         {/* Calendar Section */}
-        <section className="py-16 bg-gray-50">
+        {/* <section className="py-16 bg-gray-50">
           <div className="container mx-auto px-4 text-center">
             <h2 className="section-title">Event Calendar</h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-8">
@@ -68,7 +68,7 @@ const Events = () => {
               </a>
             </Button>
           </div>
-        </section>
+        </section> */}
 
         {/* Past Events */}
         <section className="py-16">
