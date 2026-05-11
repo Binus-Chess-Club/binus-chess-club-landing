@@ -49,87 +49,97 @@ const Team = () => {
   // Club President
   const clubPresident = [
     {
-      name: "Galvent Chiuwen",
+      name: "Sia Malvino Al Keane",
       position: "Founder & President",
-      rating: 2010,
-      image: "person/2025/galvent.png",
-      bio: "Galvent founded the BINUS Chess Club and currently serves as its president, leading with passion and strategic vision.",
-      chessComUsername: "Orangemuffin67"
+      rating: 1429,
+      image: "person/2025/malvino.png",
+      bio: "Current President of BINUS Chess Club, leading with passion and strategic vision.",
+      chessComUsername: "malmal_l"
     },
   ];
 
   // General Board (DPI Umum)
   const generalBoard = [
     {
-      name: "Geoffrey Antonio Arifin",
+      name: "Nathanael Vitzgerald",
       position: "Secretary",
-      rating: 2010,
-      image: "person/2025/geoffrey.png",
-      bio: "Geoffrey manages all club documentation, meeting minutes, and communications with members.",
-      chessComUsername: "AutumnMann19",
+      rating: 1250,
+      image: "person/2025/nathanael.png",
+      bio: "Nathanael manages all club documentation, meeting minutes, and communications with members.",
+      chessComUsername: "NathXAra",
     },
     {
-      name: "Alessandro Moreno Lawadinata",
+      name: "Muhammad Reza Alghifari",
       position: "Treasurer",
-      rating: 2230,
-      image: "person/2025/alessandromoreno.png",
-      bio: "High-rated organizer contributing significantly to club treasuries and finances.",
-      chessComUsername: "AlessandroMoreno96",
-    },
+      rating: 1130,
+      image: "person/2025/reza.png",
+      bio: "Reza organizes treasuries and finances of the club.",
+      chessComUsername: "Expanics",
+    }
   ];
 
   // Regional Representatives (PIC Region)
   const regionalReps = [
     {
-      name: "Steven Ang",
+      name: "Stanley Christian Gunawan",
       position: "Regional Head - Kemanggisan",
-      rating: 1240,
-      image: "person/2025/stevenang.png",
-      bio: "Steven leads the Kemanggisan region and coordinates regional activities.",
-      chessComUsername: "PhantomXRG",
+      rating: 1630,
+      image: "person/2025/stanley.png",
+      bio: "Stanley leads the Kemanggisan region and coordinates regional activities.",
+      chessComUsername: "Stych2312",
     },
     {
-      name: "Owen Siau",
-      position: "Regional Head - Alam Sutera",
-      rating: 1270,
-      image: "person/2025/owen.png",
-      bio: "Owen leads the Alsut region and manages regional coordination.",
-      chessComUsername: "Ony0n",
+      name: "Melsandi Gunawan",
+      position: "Regional Secretary - Kemanggisan",
+      rating: 1380,
+      image: "person/2025/melsandi.png",
+      bio: "Melsandi assists in managing the Kemanggisan region and supports the regional head in organizing events.",
+      chessComUsername: "MELSANDI",
     },
+    {
+      name: "Frederick Sawedi",
+      position: "Regional Head - Alam Sutera",
+      rating: 520,
+      image: "person/2025/frederick.png",
+      bio: "Frederick leads the Alsut region and manages regional coordination.",
+      chessComUsername: "FrederickSawedi",
+    },
+    {
+      name: "Aureylius Crystaldo Darmadji",
+      position: "Regional Secretary - Alam Sutera",
+      rating: 900,
+      image: "person/2025/aureylius.png",
+      bio: "Aureylius supports the Alsut region by assisting in event organization and member coordination.",
+      chessComUsername: "aniyeo"
+    },
+
   ];
 
   // Division Heads (Kepala Divisi Umum)
   const divisionHeads = [
     {
-      name: "Keven Wilbert Felik",
+      name: "Anthony Vriyatama",
       position: "Head of Marketing",
-      rating: 1,
-      image: "person/2025/keven.png",
-      bio: "Keven manages promotional activities, social media, and outreach campaigns for the club.",
+      rating: 1220,
+      image: "person/2025/anthony.png",
+      bio: "Anthony manages promotional activities, social media, and outreach campaigns for the club.",
+      chessComUsername: "tonyvvv",
     },
     {
-      name: "Aristo Ardy Wijaya",
+      name: "Josevan NoeleDave",
       position: "Head of Event",
-      rating: 1960,
-      image: "person/2025/aristo.png",
-      bio: "Aristo leads event planning and execution, ensuring smooth operations during club activities.",
-      chessComUsername: "aristo123456",
+      rating: 1600,
+      image: "person/2025/noele.png",
+      bio: "Noele organizes and coordinates all club events, including tournaments, workshops, and social gatherings.",
+      chessComUsername: "NoeleDavee",
     },
     {
-      name: "Muhammad Zidan Fatonie",
+      name: "Fahri Fadhil Muhammad",
       position: "Head of IT",
-      rating: 1460,
-      image: "person/2025/zidan.png",
-      bio: "Zidan manages the club's digital presence, website, and technical infrastructure for online tournaments.",
-      chessComUsername: "mzf11125",
-    },
-    {
-      name: "Dominikus Sebastian Ramli",
-      position: "Deputy of IT",
-      rating: 1420,
-      image: "person/2025/sebastian.png",
-      bio: "Sebastian assists in IT operations, web development, and manages the club's LinkedIn.",
-      chessComUsername: "Bas77z",
+      rating: 1400,
+      image: "person/2025/fadhil.png",
+      bio: "Fahri manages the club's digital presence, website, and technical infrastructure for online tournaments.",
+      chessComUsername: "Codename_Vangeance",
     },
   ];
 
@@ -138,163 +148,101 @@ const Team = () => {
 
   const activists = [
     {
-      name: "Syuja Ardhanu",
+      name: "Christopher Vincentius K",
       position: "Club Activist",
-      rating: 2290,
-      image: "person/2025/syuja.png",
+      rating: 2258,
+      image: "?",
       bio: "",
-      chessComUsername: "ds0401",
+      chessComUsername: "LVCW",
     },
-    // RESIGNED
-    // {
-    //   name: "Hans Kartawinata",
-    //   position: "Club Activist",
-    //   rating: 2160,
-    //   image: "activist/scaled/hans.png",
-    //   bio: "Highly skilled activist contributing to club development and member engagement.",
-    //   chessComUsername: "Countered",
-    // },
     {
-      name: "Stanley Christian Gunawan",
+      name: "Jonathan Saputra",
       position: "Club Activist",
-      rating: 1630,
-      image: "person/2025/stanley.png",
+      rating: 1239,
+      image: "?",
       bio: "",
-      chessComUsername: "Stych2312",
+      chessComUsername: "Josap96",
     },
     {
-      name: "Josevan NoeleDave",
+      name: "Katarina Trista Suhada",
       position: "Club Activist",
-      rating: 1600,
-      image: "person/2025/noele.png",
+      rating: 377,
+      image: "?",
       bio: "",
-      chessComUsername: "NoeleDavee",
+      chessComUsername: "Trixx38",
     },
     {
-      name: "Sia Malvino Al Keane",
+      name: "Dustin Kurniawan",
       position: "Club Activist",
-      rating: 1510,
-      image: "person/2025/malvino.png",
+      rating: 660,
+      image: "?",
       bio: "",
-      chessComUsername: "malmal_l",
+      chessComUsername: "ZugTwistX",
     },
     {
-      name: "Hibatullah Dony Ananda",
+      name: "Brandon Johan",
       position: "Club Activist",
-      rating: 1480,
-      image: "person/2025/hibatullah.png",
+      rating: 1347,
+      image: "?",
       bio: "",
-      chessComUsername: "yellowcat2224",
+      chessComUsername: "BranJohan",
     },
     {
-      name: "Fahri Fadhil",
+      name: "Aaron Zuriel",
       position: "Club Activist",
-      rating: 1400,
-      image: "person/2025/fadhil.png",
+      rating: 1872,
+      image: "?",
       bio: "",
-      chessComUsername: "Codename_Vangeance",
+      chessComUsername: "starrsnatch",
     },
     {
-      name: "Melsandi Gunawan",
+      name: "Juan Kahan Vinste",
       position: "Club Activist",
-      rating: 1380,
-      image: "person/2025/melsandi.png",
+      rating: 1625,
+      image: "?",
       bio: "",
-      chessComUsername: "MELSANDI",
+      chessComUsername: "T1c_T4c_T0e",
     },
     {
-      name: "Nathanael Vitzgerald",
+      name: "Vincent Jose Cornellius",
       position: "Club Activist",
-      rating: 1250,
-      image: "person/2025/nathanael.png",
+      rating: 1596,
+      image: "?",
       bio: "",
-      chessComUsername: "NathXAra",
+      chessComUsername: "VJC-24",
     },
     {
-      name: "Anthony Vriyatama",
+      name: "Aisha Elysia Matondang",
       position: "Club Activist",
-      rating: 1220,
-      image: "person/2025/anthony.png",
+      rating: 0,
+      image: "?",
       bio: "",
-      chessComUsername: "tonyvvv",
+      chessComUsername: "AM-222",
     },
     {
-      name: "Muhammad Reza Alghifari",
+      name: "Christian Nicholas ",
       position: "Club Activist",
-      rating: 1130,
-      image: "person/2025/reza.png",
+      rating: 1,
+      image: "?",
       bio: "",
-      chessComUsername: "Expanics",
+      chessComUsername: "",
     },
     {
-      name: "Frederick Sawedi",
+      name: "Radytia Garizah Chairullah",
       position: "Club Activist",
-      rating: 520,
-      image: "person/2025/frederick.png",
+      rating: 1,
+      image: "?",
       bio: "",
-      chessComUsername: "FrederickSawedi",
+      chessComUsername: "",
     },
     {
-      name: "Osel Citta Chen",
+      name: "Jason Christopher Chandra",
       position: "Club Activist",
-      rating: 420,
-      image: "person/2025/osel.png",
+      rating: 1,
+      image: "?",
       bio: "",
-      chessComUsername: "Spitblaze",
+      chessComUsername: "",
     },
-    {
-      name: "Jeremiah Chang",
-      position: "Club Activist",
-      rating: 400,
-      image: "person/2025/jeremiah.png",
-      bio: "",
-      chessComUsername: "Jeremiah-Chang",
-    },
-    {
-      name: "Jordan",
-      position: "Club Activist",
-      rating: 400,
-      image: "person/2025/jordan.png",
-      bio: "",
-    },
-    {
-      name: "Michaela Zaneta Hwang",
-      position: "Club Activist",
-      rating: 400,
-      image: "person/2025/michaela.png",
-      bio: "",
-    },
-    {
-      name: "Aureylius Crystaldo Darmadji",
-      position: "Club Activist",
-      rating: 900,
-      image: "person/2025/aureylius.png",
-      bio: "",
-      chessComUsername: "aniyeo"
-    },
-    {
-      name: "Evan Edward",
-      position:"Club Activist",
-      rating: 400,
-      image:"person/2025/evan.png",
-      bio: "",
-      chessComUsername: "NsxRagna"
-    },
-    {
-      name: "Erwin Rommel Immanuel",
-      position: "Club Activist",
-      rating: 400,
-      image: "person/2025/erwin.png",
-      bio: ""
-    },
-    {
-      name: "Fadli Oktaviano Raynhadi",
-      position: "Club Activist", 
-      rating: 400,
-      image: "person/2025/fadli.png",
-      bio: "",
-      chessComUsername: "oktrayn"
-    }
   ];
 
   const members = [
@@ -557,7 +505,7 @@ const Team = () => {
             {/* Division Heads */}
             <div>
               <h3 className="text-2xl font-bold text-chessBlue text-center mb-8">Division Heads</h3>
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 justify-center">
                 {divisionHeads.map((member, index) => (
                   <TeamCard
                     key={index}
