@@ -89,51 +89,50 @@ export const allEvents: Event[] = [
 
     ]
   },
-
   {
-  id: "pknstan",
-  title: "PKN STAN x BCC Sparring",
-  date: "May 31, 2025",
-  dateObject: new Date(2025, 4, 31), // May 31, 2025 (corrected from July 19)
-  location: "BINUS Kemanggisan",
-  description: "We honed our skills in an exciting sparring session with PKN STAN! This friendly match boosted our teamwork and readiness for future competitions.",
-  image: "/events/pknstan/pknstan.jpg",
-  type: "past",
-  fullDescription: "The PKN STAN x BCC Sparring, held on May 31, 2025, at BINUS Kemanggisan, was a dynamic friendly match that brought together members of the BINUS Chess Club and PKN STAN for an enriching chess experience. This event featured a series of casual yet competitive games, allowing both teams to test their strategies, improve their gameplay, and build camaraderie. Guided by our coaches, we focused on tactical drills and real-time feedback during the session, which helped strengthen our team coordination and individual skills. This sparring session was a valuable opportunity to prepare for upcoming tournaments and foster a spirit of collaboration with PKN STAN, leaving us better equipped for future challenges!",
-  gallery: [
-    "/events/pknstan/1.jpg",
-    "/events/pknstan/2.jpg",
-    "/events/pknstan/3.jpg",
-  ]
-},
-  {
-  id: "welpar",
-  title: "Welcoming Party 2025",
-  date: "October 12, 2025",
-  dateObject: new Date(2025, 10, 12), // YYYY, MM, DD
-  location: "BINUS Kemanggisan",
-  description: "A warm welcome to our newest members! At Welcoming Party 2025, we bonded through fun activities, light chess sessions, and team-building games that set the tone for an exciting year ahead.",
-  image: "/events/welpar/Welpar_2.JPG",
-  type: "past",
-  fullDescription: "The Welcoming Party 2025, held on October 12, 2025, at BINUS Kemanggisan, marked the beginning of a new chapter for the BINUS Chess Club. This event was designed to introduce new members to the club’s culture, activities, and community. Through ice-breaking games, casual chess matches, and team-building sessions, participants were able to connect with seniors, staff, and fellow newcomers in a relaxed and friendly atmosphere. The event fostered strong camaraderie early on, allowing members to feel at home while getting a glimpse of the exciting programs and competitions ahead. Welpar 2025 successfully set the foundation for a collaborative and supportive environment that the club will continue to build throughout the year.",
-  gallery: [
-    "/events/welpar/Welpar_1.JPG",
-    "/events/welpar/Welpar_3.JPG",
+    id: "pknstan",
+    title: "PKN STAN x BCC Sparring",
+    date: "May 31, 2025",
+    dateObject: new Date(2025, 4, 31), // May 31, 2025 (corrected from July 19)
+    location: "BINUS Kemanggisan",
+    description: "We honed our skills in an exciting sparring session with PKN STAN! This friendly match boosted our teamwork and readiness for future competitions.",
+    image: "/events/pknstan/pknstan.jpg",
+    type: "past",
+    fullDescription: "The PKN STAN x BCC Sparring, held on May 31, 2025, at BINUS Kemanggisan, was a dynamic friendly match that brought together members of the BINUS Chess Club and PKN STAN for an enriching chess experience. This event featured a series of casual yet competitive games, allowing both teams to test their strategies, improve their gameplay, and build camaraderie. Guided by our coaches, we focused on tactical drills and real-time feedback during the session, which helped strengthen our team coordination and individual skills. This sparring session was a valuable opportunity to prepare for upcoming tournaments and foster a spirit of collaboration with PKN STAN, leaving us better equipped for future challenges!",
+    gallery: [
+      "/events/pknstan/1.jpg",
+      "/events/pknstan/2.jpg",
+      "/events/pknstan/3.jpg",
     ]
   },
   {
-  id: "expo",
-  title: "Week of Welcoming Expo B29",
-  date: "August 25-27, 2025",
-  dateObject: new Date(2025, 8, 25), // YYYY, MM, DD
-  location: "BINUS Kemanggisan & Alam Sutera",
-  description: "We showcased the BINUS Chess Club at the WOW Expo B29. New students visited our booth to learn about our activities, try mini-challenges, and discover the excitement of joining BCC.",
-  image: "/events/expo/expo_1.jpg",
-  type: "past",
-  fullDescription: "The Week of Welcoming (WOW) Expo B29, held on August 25-27, 2025, at both BINUS Kemanggisan and Alam Sutera, provided an opportunity for the BINUS Chess Club to introduce itself to incoming freshmen. Throughout the expo, students explored the BCC booth, learned about our training programs, events, tournaments, and community initiatives.",
-  gallery: [
-    "/events/expo/expo_2.jpg",
-    "/events/expo/expo_3.jpg",
+    id: "welpar",
+    title: "Welcoming Party 2025",
+    date: "October 12, 2025",
+    dateObject: new Date(2025, 10, 12), // YYYY, MM, DD
+    location: "BINUS Kemanggisan",
+    description: "A warm welcome to our newest members! At Welcoming Party 2025, we bonded through fun activities, light chess sessions, and team-building games that set the tone for an exciting year ahead.",
+    image: "/events/welpar/Welpar_2.JPG",
+    type: "past",
+    fullDescription: "The Welcoming Party 2025, held on October 12, 2025, at BINUS Kemanggisan, marked the beginning of a new chapter for the BINUS Chess Club. This event was designed to introduce new members to the club’s culture, activities, and community. Through ice-breaking games, casual chess matches, and team-building sessions, participants were able to connect with seniors, staff, and fellow newcomers in a relaxed and friendly atmosphere. The event fostered strong camaraderie early on, allowing members to feel at home while getting a glimpse of the exciting programs and competitions ahead. Welpar 2025 successfully set the foundation for a collaborative and supportive environment that the club will continue to build throughout the year.",
+    gallery: [
+      "/events/welpar/Welpar_1.JPG",
+      "/events/welpar/Welpar_3.JPG",
+    ]
+  },
+  {
+    id: "expo",
+    title: "Week of Welcoming Expo B29",
+    date: "August 25-27, 2025",
+    dateObject: new Date(2025, 8, 25), // YYYY, MM, DD
+    location: "BINUS Kemanggisan & Alam Sutera",
+    description: "We showcased the BINUS Chess Club at the WOW Expo B29. New students visited our booth to learn about our activities, try mini-challenges, and discover the excitement of joining BCC.",
+    image: "/events/expo/expo_1.jpg",
+    type: "past",
+    fullDescription: "The Week of Welcoming (WOW) Expo B29, held on August 25-27, 2025, at both BINUS Kemanggisan and Alam Sutera, provided an opportunity for the BINUS Chess Club to introduce itself to incoming freshmen. Throughout the expo, students explored the BCC booth, learned about our training programs, events, tournaments, and community initiatives.",
+    gallery: [
+      "/events/expo/expo_2.jpg",
+      "/events/expo/expo_3.jpg",
     ]
   },
 ];
