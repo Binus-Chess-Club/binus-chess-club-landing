@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 const Footer = () => {
   const currentYear = new Date().getFullYear();
   const location = useLocation();
-  
+
   // Pages that already have their own CTA section
   const pagesWithCTA = ["/", "/about", "/contact", "/events", "/team"];
   const showCTA = !pagesWithCTA.includes(location.pathname);
@@ -31,7 +31,7 @@ const Footer = () => {
           </div>
         </div>
       )}
-      
+
       <div className="container mx-auto px-4 pt-12 pb-6">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="md:col-span-1">
@@ -134,7 +134,7 @@ const Footer = () => {
             <address className="not-italic text-gray-300">
               <p>Bina Nusantara University</p>
               <p>Kemanggisan, Jakarta Barat</p>
-              <p className="mt-2">Email: binuschessclub@gmail.com</p>
+              <p className="mt-2">Email: binuschess.club@binus.ac.id</p>
             </address>
           </div>
         </div>

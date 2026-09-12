@@ -3,12 +3,22 @@ import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { Loader2 } from "lucide-react";
 
+const yearColors: Record<number, string> = {
+  2024: "bg-amber-500",
+  2025: "bg-emerald-500",
+  2026: "bg-sky-500",
+  2027: "bg-violet-500",
+  2028: "bg-rose-500",
+  2029: "bg-orange-500",
+};
+
 interface EventCardProps {
   title: string;
   date: string;
   location: string;
   description: string;
   image: string;
+  year?: number;
   buttonText?: string;
   buttonLink?: string;
   className?: string;
@@ -20,6 +30,7 @@ const EventCard = ({
   location,
   description,
   image,
+  year,
   buttonText = "Learn More",
   buttonLink = "#",
   className,
@@ -43,6 +54,16 @@ const EventCard = ({
           )}
           onLoad={() => setImageLoaded(true)}
         />
+        {year && (
+          <span
+            className={cn(
+              "absolute top-3 right-3 text-white text-xs font-bold px-2.5 py-1 rounded-full shadow-md",
+              yearColors[year] || "bg-gray-500"
+            )}
+          >
+            {year}
+          </span>
+        )}
       </div>
       <div className="p-6 flex flex-col flex-1">
         <h3 className="font-bold text-xl text-chessBlue mb-2">{title}</h3>

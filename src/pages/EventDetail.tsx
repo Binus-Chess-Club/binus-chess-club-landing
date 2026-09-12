@@ -78,7 +78,7 @@ const EventDetail = () => {
                 <h2 className="text-3xl font-bold mb-6 text-chessBlue">
                   About This Event
                 </h2>
-                <p className="text-lg text-gray-600 mb-8 leading-relaxed">
+                <p className="text-lg text-gray-600 mb-8 leading-relaxed whitespace-pre-line">
                   {event.fullDescription}
                 </p>
 

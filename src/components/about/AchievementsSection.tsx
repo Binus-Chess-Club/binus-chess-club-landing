@@ -4,11 +4,115 @@ const AchievementsSection = () => {
       {/* First Achievement Group */}
       <div className="bg-white p-6 rounded-lg shadow-md border border-gray-100">
         <h3 className="font-semibold text-xl text-chessBlue mb-4 text-center">
-          POMPROV DKI Jakarta
+          POMPROV DKI Jakarta 2026
         </h3>
         <div className="h-48 mb-6 overflow-hidden rounded-lg">
           <img
-            src="/lovable-uploads/c5d0a761-dc86-4d2d-969f-68c90c4946d1.png"
+            src="/achievements/pomprov2026.png"
+            alt="BINUS Chess Club members with medals"
+            className="w-full h-full object-contain"
+          />
+        </div>
+        <ul className="space-y-3">
+          <li className="flex items-center">
+            <div className="w-6 h-6 bg-yellow-500 text-white rounded-full flex items-center justify-center font-bold text-sm mr-3">
+              1
+            </div>
+            <span className="text-lg text-chessBlue">
+              Catur Cepat Beregu Putra
+            </span>
+          </li>
+          <li className="flex items-center">
+            <div className="w-6 h-6 bg-yellow-500 text-white rounded-full flex items-center justify-center font-bold text-sm mr-3">
+              1
+            </div>
+            <span className="text-lg text-chessGreen">
+              Catur Kilat Beregu Putra
+            </span>
+          </li>
+          <li className="flex items-center">
+            <div className="w-6 h-6 bg-yellow-500 text-white rounded-full flex items-center justify-center font-bold text-sm mr-3">
+              1
+            </div>
+            <span className="text-lg text-chessBlue">
+              Catur Mix Kilat
+            </span>
+          </li>
+          <li className="flex items-center">
+            <div className="w-6 h-6 bg-yellow-500 text-white rounded-full flex items-center justify-center font-bold text-sm mr-3">
+              1
+            </div>
+            <span className="text-lg text-chessBlue">
+              Catur Cepat Perorangan Putra
+            </span>
+          </li>
+          <li className="flex items-center">
+            <div className="w-6 h-6 bg-amber-600 text-white rounded-full flex items-center justify-center font-bold text-sm mr-3">
+              2
+            </div>
+            <span className="text-lg text-chessBlue">
+              Catur Cepat Perorangan Putri
+            </span>
+          </li>
+          <li className="flex items-center">
+            <div className="w-6 h-6 bg-amber-600 text-white rounded-full flex items-center justify-center font-bold text-sm mr-3">
+              3
+            </div>
+            <span className="text-lg text-chessBlue">
+              Catur Kilat Perorangan Putri
+            </span>
+          </li>
+        </ul>
+      </div>
+
+      <div className="bg-white p-6 rounded-lg shadow-md border border-gray-100">
+        <h3 className="font-semibold text-xl text-chessBlue mb-4 text-center">
+          STIK Cup 2026
+        </h3>
+        <div className="h-48 mb-6 overflow-hidden rounded-lg">
+          <img
+            src="/achievements/stikcup2026.png"
+            alt="BINUS Chess Club members with medals"
+            className="w-full h-full object-contain"
+          />
+        </div>
+        <ul className="space-y-3">
+          <li className="flex items-center">
+            <div className="w-6 h-6 bg-yellow-500 text-white rounded-full flex items-center justify-center font-bold text-sm mr-3">
+              3
+            </div>
+            <span className="text-lg text-chessBlue">
+              Team A — 3rd Place
+
+
+            </span>
+          </li>
+          <li className="flex items-center">
+            <div className="w-6 h-6 bg-slate-500 text-white rounded-full flex items-center justify-center font-bold text-sm mr-3">
+              10
+            </div>
+            <span className="text-lg text-chessGreen">
+              Team B — 10th Place
+            </span>
+          </li>
+          <li className="flex items-center">
+            <div className="w-6 h-6 bg-amber-600 text-white rounded-full flex items-center justify-center font-bold text-sm mr-3">
+              6
+            </div>
+            <span className="text-lg text-chessBlue">
+              Team C — 6th Place
+            </span>
+          </li>
+        </ul>
+      </div>
+
+      <div className="bg-white p-6 rounded-lg shadow-md border border-gray-100">
+        <h3 className="font-semibold text-xl text-chessBlue mb-4 text-center">
+          POMPROV DKI Jakarta 2025
+        </h3>
+        <div className="h-48 mb-6 overflow-hidden rounded-lg">
+          <img
+            src="/achievements/pomprov2025.png"
             alt="BINUS Chess Club members with medals"
             className="w-full h-full object-contain"
           />
@@ -48,7 +152,7 @@ const AchievementsSection = () => {
         </h3>
         <div className="h-48 mb-6 overflow-hidden rounded-lg">
           <img
-            src="/lovable-uploads/7a491fbf-9589-4734-b24d-7815b5a974cf.png"
+            src="/achievements/rengasdengklok.png"
             alt="Trophy from Piala Proklamator Rengasdengklok"
             className="w-full h-full object-contain"
           />

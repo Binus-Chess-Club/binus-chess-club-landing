@@ -26,52 +26,42 @@ const Events = () => {
           </div>
         </section>
 
-        {/* Upcoming Events */}
-        {/* <section className="py-16">
+        {/* Future Events */}
+        <section className="py-16">
           <div className="container mx-auto px-4">
-            <h2 className="section-title text-center">Upcoming Events</h2>
-            <p className="text-lg text-gray-600 text-center max-w-3xl mx-auto mb-12">
-              Join us for these exciting chess events and activities.
-            </p>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {upcomingEvents.map((event, index) => (
-                <EventCard
-                  key={index}
-                  title={event.title}
-                  date={event.date}
-                  location={event.location}
-                  description={event.description}
-                  image={event.image}
-                  buttonText="View Details"
-                  buttonLink={`/events/${event.id}`}
-                />
-              ))}
+            <div className="mb-12">
+              <h2 className="section-title text-left">Future Events</h2>
+              <p className="text-lg text-gray-600 max-w-3xl">
+                Join us for these exciting upcoming chess events and activities.
+              </p>
             </div>
+            {upcomingEvents.length > 0 ? (
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                {upcomingEvents.map((event, index) => (
+                  <EventCard
+                    key={index}
+                    title={event.title}
+                    date={event.date}
+                    location={event.location}
+                    description={event.description}
+                    image={event.image}
+                    year={event.dateObject.getFullYear()}
+                    buttonText="View Details"
+                    buttonLink={`/events/${event.id}`}
+                  />
+                ))}
+              </div>
+            ) : (
+              <div className="text-center py-12 bg-gray-50 rounded-xl border border-dashed border-gray-300">
+                <p className="text-gray-500 text-lg">No upcoming events at the moment.</p>
+                <p className="text-gray-400 text-sm mt-1">Stay tuned — new events are on the way!</p>
+              </div>
+            )}
           </div>
-        </section> */}
-
-        {/* Calendar Section */}
-        {/* <section className="py-16 bg-gray-50">
-          <div className="container mx-auto px-4 text-center">
-            <h2 className="section-title">Event Calendar</h2>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-8">
-              Check out our full calendar to plan ahead for all our chess
-              activities.
-            </p>
-            <Button asChild className="bg-chessBlue hover:bg-chessBlue-light">
-              <a
-                href="https://docs.google.com/spreadsheets/d/106VX7b3Eu4mTLt_MMe4MDbuGmixvU_6cMtSxucBpob8/edit?usp=sharing"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                View Full Calendar
-              </a>
-            </Button>
-          </div>
-        </section> */}
+        </section>
 
         {/* Past Events */}
-        <section className="py-16">
+        <section className="py-16 bg-gray-50">
           <div className="container mx-auto px-4">
             <div className="flex justify-between items-center mb-12">
               <div>
@@ -98,6 +88,7 @@ const Events = () => {
                   location={event.location}
                   description={event.description}
                   image={event.image}
+                  year={event.dateObject.getFullYear()}
                   buttonText="View Details"
                   buttonLink={`/events/${event.id}`}
                 />

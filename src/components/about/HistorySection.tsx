@@ -25,7 +25,7 @@ const HistorySection = () => {
         <div className="rounded-lg overflow-hidden shadow-lg">
           <AspectRatio ratio={16 / 9}>
             <img
-              src="simul.jpeg"
+              src="/events/launching-bcc/simul.jpeg"
               alt="BINUS Chess Club members playing chess"
               className="w-full h-full object-cover"
             />
