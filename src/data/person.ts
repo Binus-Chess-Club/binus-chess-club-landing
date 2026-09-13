@@ -293,19 +293,19 @@ export const alumniData: AlumniMember[] = [
   // 2025 Alumni
   {
     name: "Galvent Chiuwen",
-    position: "Former Founder & President",
+    position: "Founder & Former President",
     chessComUsername: "Orangemuffin67",
     year: 2025,
   },
   {
     name: "Geoffrey Antonio Arifin",
-    position: "Former Secretary",
+    position: "Founder & Former Secretary",
     chessComUsername: "AutumnMann19",
     year: 2025,
   },
   {
     name: "Alessandro Moreno Lawadinata",
-    position: "Former Treasurer",
+    position: "Founder & Former Treasurer",
     chessComUsername: "AlessandroMoreno96",
     year: 2025,
   },
