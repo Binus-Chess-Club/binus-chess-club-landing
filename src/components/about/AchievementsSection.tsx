@@ -4,7 +4,7 @@ const AchievementsSection = () => {
       {/* First Achievement Group */}
       <div className="bg-white p-6 rounded-lg shadow-md border border-gray-100">
         <h3 className="font-semibold text-xl text-chessBlue mb-4 text-center">
-          POMPROV DKI Jakarta 2026
+          POMPROV Banten 2026
         </h3>
         <div className="h-48 mb-6 overflow-hidden rounded-lg">
           <img
@@ -47,7 +47,7 @@ const AchievementsSection = () => {
             </span>
           </li>
           <li className="flex items-center">
-            <div className="w-6 h-6 bg-amber-600 text-white rounded-full flex items-center justify-center font-bold text-sm mr-3">
+            <div className="w-6 h-6 bg-slate-400 text-white rounded-full flex items-center justify-center font-bold text-sm mr-3">
               2
             </div>
             <span className="text-lg text-chessBlue">
@@ -78,7 +78,7 @@ const AchievementsSection = () => {
         </div>
         <ul className="space-y-3">
           <li className="flex items-center">
-            <div className="w-6 h-6 bg-yellow-500 text-white rounded-full flex items-center justify-center font-bold text-sm mr-3">
+            <div className="w-6 h-6 bg-amber-500 text-white rounded-full flex items-center justify-center font-bold text-sm mr-3">
               3
             </div>
             <span className="text-lg text-chessBlue">
@@ -88,7 +88,7 @@ const AchievementsSection = () => {
             </span>
           </li>
           <li className="flex items-center">
-            <div className="w-6 h-6 bg-slate-500 text-white rounded-full flex items-center justify-center font-bold text-sm mr-3">
+            <div className="w-6 h-6 bg-slate-600 text-white rounded-full flex items-center justify-center font-bold text-sm mr-3">
               10
             </div>
             <span className="text-lg text-chessGreen">
@@ -96,7 +96,7 @@ const AchievementsSection = () => {
             </span>
           </li>
           <li className="flex items-center">
-            <div className="w-6 h-6 bg-amber-600 text-white rounded-full flex items-center justify-center font-bold text-sm mr-3">
+            <div className="w-6 h-6 bg-slate-600 text-white rounded-full flex items-center justify-center font-bold text-sm mr-3">
               6
             </div>
             <span className="text-lg text-chessBlue">
@@ -119,7 +119,7 @@ const AchievementsSection = () => {
         </div>
         <ul className="space-y-3">
           <li className="flex items-center">
-            <div className="w-6 h-6 bg-yellow-500 text-white rounded-full flex items-center justify-center font-bold text-sm mr-3">
+            <div className="w-6 h-6 bg-slate-400 text-white rounded-full flex items-center justify-center font-bold text-sm mr-3">
               2
             </div>
             <span className="text-lg text-chessBlue">
@@ -159,7 +159,7 @@ const AchievementsSection = () => {
         </div>
         <ul className="space-y-3">
           <li className="flex items-center">
-            <div className="w-6 h-6 bg-yellow-500 text-white rounded-full flex items-center justify-center font-bold text-sm mr-3">
+            <div className="w-6 h-6 bg-slate-400 text-white rounded-full flex items-center justify-center font-bold text-sm mr-3">
               2
             </div>
             <span className="text-lg text-chessGreen">
@@ -183,7 +183,7 @@ const AchievementsSection = () => {
         </div>
         <ul className="space-y-3">
           <li className="flex items-center">
-            <div className="w-6 h-6 bg-orange-500 text-white rounded-full flex items-center justify-center font-bold text-sm mr-3">
+            <div className="w-6 h-6 bg-slate-600 text-white rounded-full flex items-center justify-center font-bold text-sm mr-3">
               6
             </div>
             <span className="text-lg text-chessBlue">
@@ -191,7 +191,7 @@ const AchievementsSection = () => {
             </span>
           </li>
           <li className="flex items-center">
-            <div className="w-6 h-6 bg-slate-500 text-white rounded-full flex items-center justify-center font-bold text-sm mr-3">
+            <div className="w-6 h-6 bg-slate-600 text-white rounded-full flex items-center justify-center font-bold text-sm mr-3">
               13
             </div>
             <span className="text-lg text-chessGreen">
@@ -215,7 +215,7 @@ const AchievementsSection = () => {
         </div>
         <ul className="space-y-3">
           <li className="flex items-center">
-            <div className="w-6 h-6 bg-yellow-500 text-white rounded-full flex items-center justify-center font-bold text-sm mr-3">
+            <div className="w-6 h-6 bg-slate-400 text-white rounded-full flex items-center justify-center font-bold text-sm mr-3">
               2
             </div>
             <span className="text-lg text-chessGreen">
@@ -223,7 +223,7 @@ const AchievementsSection = () => {
             </span>
           </li>
           <li className="flex items-center">
-            <div className="w-6 h-6 bg-slate-500 text-white rounded-full flex items-center justify-center font-bold text-sm mr-3">
+            <div className="w-6 h-6 bg-slate-600 text-white rounded-full flex items-center justify-center font-bold text-sm mr-3">
               13
             </div>
             <span className="text-lg text-chessBlue">
@@ -231,7 +231,7 @@ const AchievementsSection = () => {
             </span>
           </li>
           <li className="flex items-center">
-            <div className="w-6 h-6 bg-slate-500 text-white rounded-full flex items-center justify-center font-bold text-sm mr-3">
+            <div className="w-6 h-6 bg-slate-600 text-white rounded-full flex items-center justify-center font-bold text-sm mr-3">
               21
             </div>
             <span className="text-lg text-chessGreen">

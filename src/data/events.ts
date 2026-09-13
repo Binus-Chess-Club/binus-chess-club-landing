@@ -216,12 +216,12 @@ export const allEvents: Event[] = [
   // },
   {
     id: "pomprov-2026",
-    title: "POMPROV Jakarta 2026",
+    title: "POMPROV Banten 2026",
     date: "August 31 - September 5, 2026",
     dateObject: new Date(2026, 8, 31),
     location: "Jakarta",
     description:
-      "BCC members represented BINUS at the Pekan Olahraga Mahasiswa Provinsi DKI Jakarta in the chess category.",
+      "BCC members represented BINUS at the Pekan Olahraga Mahasiswa Provinsi Banten in the chess category.",
     image: "/events/pomprov-2026/main.png",
     type: "past",
     gallery: [
@@ -231,7 +231,7 @@ export const allEvents: Event[] = [
       "/events/pomprov-2026/4.png",
     ],
     fullDescription:
-      "POMPROV Jakarta 2026 (Pekan Olahraga Mahasiswa Provinsi DKI Jakarta) was a major provincial-level student sports competition where BCC members proudly represented BINUS University in the chess category. After weeks of intensive preparation, our players competed against top university chess teams from across Jakarta. The experience was invaluable in building competitive resilience, gaining exposure to high-level play, and putting BINUS Chess Club on the map in the Jakarta collegiate chess scene.",
+      "POMPROV Banten 2026 (Pekan Olahraga Mahasiswa Provinsi Banten) was a major provincial-level student sports competition where BCC members proudly represented BINUS University in the chess category. After weeks of intensive preparation, our players competed against top university chess teams from across Banten. The experience was invaluable in building competitive resilience, gaining exposure to high-level play, and putting BINUS Chess Club on the map in the Banten collegiate chess scene.",
   },
   {
     id: "pknstan",
